@@ -4,11 +4,8 @@ body{
      background-color: #fff;
  }
 
- ul,
- ol {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
+ ul{
+  list-style-type: none;
  }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -27,9 +24,10 @@ h1, h2, h3, h4, h5, h6, p {
    margin: 0 auto;
 }
 
-
-
-
+ul , ol {
+   margin: 0;
+   padding: 0;
+}
 
 
 
@@ -42,6 +40,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header-container{
    display: flex;
    align-items: center;
+   width: 1158px;
 }
 
 .header-nav{
@@ -84,16 +83,16 @@ h1, h2, h3, h4, h5, h6, p {
  .nav-link{
    padding: 24px 0;
    display: block;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
  }
 
  .contacts{
-    font-style: normal;
-    margin-left: auto;
+   font-style: normal;
+   margin-left: auto;
  }
 
 .contacts-list{
@@ -126,9 +125,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 
  .hero{
-    background-color: #2e2f42;
+   background-color: #2e2f42;
+   height: 600px;
+   display: flex;
+   align-items: center;
+   padding-bottom: 188px;
+   padding-top: 188px;
  }
 
+
+ 
  .hero-title{
    font-weight: 700;
    font-size: 56px;
@@ -136,15 +142,28 @@ h1, h2, h3, h4, h5, h6, p {
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
+   max-width: 496px; 
+   padding-top: 188px;
+   margin-bottom: 48px;
+   margin-left: auto;
+   margin-right: auto;
  }
 
  .hero-btn{
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      background: #4d5ae5;
-      cursor: pointer;
+   text-align: center;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   background: #4d5ae5;
+   cursor: pointer;
+   display: block;
+   min-width: 169px;
+   height: 56px;
+   border: none;
+   border-radius: 4px;
+   margin: 48px auto 188px auto;
+   
  }
 
 .hero-btn{
@@ -156,18 +175,40 @@ h1, h2, h3, h4, h5, h6, p {
    background-color: #404BBF
  }
 
+ 
 /* --------HERO --------*/
 
 
 /* -------- FEATURES --------*/
 
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+
 .features {}
 
 
-.features-list {}
+.features-list {
+display: flex;
+gap: 24px;
+padding-bottom: 120px;
+}
 
 
-.features-item {}
+.features-item {
+   padding-top: 120px;
+   width: calc((100% - 72px) / 4);
+}
 
 
 .features-subtitle {
