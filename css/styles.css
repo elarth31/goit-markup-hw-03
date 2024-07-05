@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .container{
-   min-width: 1158px;
+   max-width: 1158px;
    padding: 0 15px;
    margin: 0 auto;
 }
@@ -202,6 +202,7 @@ ul , ol {
 display: flex;
 gap: 24px;
 padding-bottom: 120px;
+
 }
 
 
@@ -217,6 +218,7 @@ padding-bottom: 120px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -238,20 +240,28 @@ padding-bottom: 120px;
 }
 
 .team-title {
-   font-weight: 700;
+    font-weight: 700;
       font-size: 36px;
       line-height: 1.11;
       letter-spacing: 0.02em;
       text-align: center;
       color: #2e2f42;
       text-transform: capitalize;
+      padding-top: 120px;
+         margin-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+   display: flex;
+   gap: 24px;
+}
 
 
 .team-item { 
    background: #fff;
+   width: 264px;
+   height: 380px;
+   border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -265,6 +275,8 @@ padding-bottom: 120px;
       letter-spacing: 0.02em;
       text-align: center;
       color: #2e2f42;
+      text-align: center;
+      margin-bottom: 8px
 }
 
 
@@ -275,6 +287,7 @@ padding-bottom: 120px;
       letter-spacing: 0.02em;
       text-align: center;
       color: #434455;
+      
 }
 
 
@@ -330,19 +343,23 @@ font-weight: 400;
 /* -------- FOOTER --------*/
 
 
-.page-footer {
-background-color: #2e2f42;
-}
-
-
-.content-footer {
-font-weight: 400;
-   font-size: 16px;
+.footer-text {
+   color: #F4F4FD;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #f4f4fd;
+   padding-bottom: 100px;
+   max-width: 264px;
 }
 
+.footer-logo {
+   margin-bottom: 16px;
+   padding-top: 100px;
+   padding-right: 1169px;
+   margin-left: auto;
+   display: inline-block;
+}
 
-
+.page-footer {
+   background-color: #2E2F42;
+}
 /* -------- FOOTER --------*/
