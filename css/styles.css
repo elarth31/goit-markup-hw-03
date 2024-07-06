@@ -340,11 +340,13 @@ font-weight: 700;
   column-gap: 24px;
    row-gap: 48px;
    padding-bottom: 120px;
+   
 }
 
 
 .portfolio-item {
    width: calc((100% - 2 * 24px) / 3);
+   padding: 32px 16px;
 }
 
 
@@ -373,6 +375,7 @@ font-weight: 400;
    margin-bottom: 32px;
    padding: 32px 16px;
       border: 1px solid #e7e9fc;
+      border-top: none;
 }
 
 
