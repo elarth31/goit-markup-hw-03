@@ -201,7 +201,10 @@ img{
 }
 
 
-.features {}
+.features {
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
 
 
 .features-list {
@@ -303,7 +306,11 @@ padding-bottom: 120px;
 /* -------- PORTFOLIO --------*/
 
 
-.portfolio {}
+.portfolio {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   flex-wrap: wrap;
+}
 
 
 .portfolio-title {
@@ -314,6 +321,7 @@ font-weight: 700;
    text-align: center;
    color: #2e2f42;
    text-transform: capitalize;
+   margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -383,5 +391,6 @@ font-weight: 400;
 
 .page-footer {
    background-color: #2E2F42;
+   padding: 100px 0;
 }
 /* -------- FOOTER --------*/
