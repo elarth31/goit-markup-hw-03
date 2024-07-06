@@ -274,6 +274,9 @@ padding-bottom: 120px;
    border-radius: 0px 0px 4px 4px;
 }
 
+.team-container{
+padding: 32px 0;
+}
 
 .team-image {}
 
@@ -371,11 +374,8 @@ font-weight: 400;
 
 
 .portfolio-image{
-   border-bottom: 1px solid #e7e9fc;
-   border-left: 1px solid #e7e9fc;
-   border-right: 1px solid #e7e9fc;
-   padding-top: 32px;
-   padding-bottom: 32px;
+   border: 1px solid #e7e9fc;
+   padding: 32px 16px;
    border-top: none;
    margin-bottom: 8px;
 }
